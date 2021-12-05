@@ -1,0 +1,1 @@
+I saw another one, and I thought it would be a fun idea to see if I could implement it in less than an hour. Practially speaking, this might even make some links longer, since it is running on a server that does other things and I don't want to throw away my namespaces, but hey, it works. Not very scalable either, haha.

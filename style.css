@@ -1,0 +1,64 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    transition: .2s ease;
+}
+
+#contain {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    margin: auto auto 12px auto;
+}
+
+#create {
+    text-align: center;
+    margin: 12px auto auto auto;
+}
+
+#added {
+    margin: 12px auto;
+    text-align: center;
+}
+
+div,
+a,
+input {
+    font-size: 20px;
+}
+
+input[type="text"] {
+    margin: 12px;
+    outline: none;
+    border: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    padding: 8px 12px;
+}
+
+input[type="text"]:focus {
+    border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+input[type="submit"] {
+    margin: 12px;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    padding: 8px 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+}
